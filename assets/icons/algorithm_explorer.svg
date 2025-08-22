@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+    <defs>
+        <linearGradient id="algGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#2E86AB;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#1E5F7A;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    <rect x="10" y="10" width="80" height="80" rx="10" fill="url(#algGrad)"/>
+    <circle cx="30" cy="30" r="5" fill="white"/>
+    <circle cx="50" cy="50" r="5" fill="white"/>
+    <circle cx="70" cy="70" r="5" fill="white"/>
+    <line x1="30" y1="30" x2="50" y2="50" stroke="white" stroke-width="2"/>
+    <line x1="50" y1="50" x2="70" y2="70" stroke="white" stroke-width="2"/>
+    <polygon points="25,60 35,60 30,70" fill="white"/>
+    <polygon points="45,40 55,40 50,30" fill="white"/>
+</svg>

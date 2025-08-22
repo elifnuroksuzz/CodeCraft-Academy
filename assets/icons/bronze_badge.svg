@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+    <defs>
+        <radialGradient id="bronzeGrad" cx="50%" cy="30%" r="70%">
+            <stop offset="0%" style="stop-color:#CD7F32;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#8B4513;stop-opacity:1" />
+        </radialGradient>
+    </defs>
+    <circle cx="50" cy="50" r="40" fill="url(#bronzeGrad)" stroke="#A0522D" stroke-width="2"/>
+    <polygon points="50,25 55,40 70,40 58,50 63,65 50,55 37,65 42,50 30,40 45,40" fill="#DEB887"/>
+    <text x="50" y="80" font-family="Arial, sans-serif" font-size="10" font-weight="bold" 
+          text-anchor="middle" fill="#8B4513">BRONZE</text>
+</svg>
