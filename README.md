@@ -1,8 +1,8 @@
-<img width="698" height="606" alt="image" src="https://github.com/user-attachments/assets/0c97b3ec-ebd1-4853-a15d-95f599e0fd9a" />
-<img width="896" height="754" alt="image" src="https://github.com/user-attachments/assets/99eda938-6418-44a7-a33d-fc4066601840" />
-<img width="794" height="578" alt="image" src="https://github.com/user-attachments/assets/5d851672-26e9-4480-b4a1-d4c35a9f0546" />
-<img width="670" height="678" alt="image" src="https://github.com/user-attachments/assets/0c246af4-56d6-4f39-907f-543ef48a063d" />
-![Uploading image.png…]()
+<img width="1920" height="892" alt="image" src="https://github.com/user-attachments/assets/8ab35d25-fdd4-4c3e-92e0-2d353e2b7652" />
+<img width="1920" height="886" alt="image" src="https://github.com/user-attachments/assets/e5f8039f-18bd-4f87-9ed9-0eebee55d6f8" />
+<img width="1920" height="882" alt="image" src="https://github.com/user-attachments/assets/9d8c88ad-293e-4e83-8dd4-267bbe2058f0" />
+<img width="1920" height="896" alt="image" src="https://github.com/user-attachments/assets/1bceac0f-861d-45f7-ae7b-ed3057f561fc" />
+<img width="1920" height="892" alt="image" src="https://github.com/user-attachments/assets/57006980-8fae-43a8-85c1-0054e708424c" />
 
 # 🎮 CodeCraft Academy
 
@@ -219,8 +219,7 @@ CodeCraft-Academy/
 │   ├── certificates/        # Oluşturulan sertifikalar
 │   └── user_progress.json   # Kullanıcı ilerlemesi
 ├── requirements.txt         # Python bağımlılıkları
-├── README.md               # Bu dosya
-└── LICENSE                 # Lisans dosyası
+└── README.md               # Bu dosya
 ```
 
 ### Katkıda Bulunma
@@ -301,7 +300,6 @@ Bu proje [MIT License](LICENSE) ile lisanslanmıştır.
 - 🌐 **GitHub**: [@elifnuroksuzz](https://github.com/elifnuroksuzz)
 - 📧 **Email**: [elifnuroksuz4@gmail.com](mailto:elifnuroksuz4@gmail.com)
 - 💼 **LinkedIn**: [elifnuroksuz](https://www.linkedin.com/in/elifnuroksuz/)
-- 🎓 **Uzmanlık**: Eğitim Teknolojileri & Python Development
 
 ## 🙏 Teşekkürler
 
@@ -319,22 +317,4 @@ Projeyi desteklemek isterseniz:
 - 📢 Sosyal medyada paylaşın
 
 ---
-
-<div align="center">
-
-### 🎮 **Çocukların Kodlama Macerası Burada Başlıyor!** 🚀
-
-**Made with ❤️ for young developers**
-
-⭐ **Bu projeyi beğendiyseniz yıldızlamayı unutmayın!**
-
-</div>
-
----
-
-<div align="center">
-  <img src="https://via.placeholder.com/150x150/FF6B6B/FFFFFF?text=CC" alt="CodeCraft Academy Logo" width="100" height="100">
-  <br>
-  <strong>CodeCraft Academy - Where Young Minds Code!</strong>
-</div>
 
