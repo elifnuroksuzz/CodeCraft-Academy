@@ -6,315 +6,109 @@
 
 # 🎮 CodeCraft Academy
 
-> Çocuklara kodlama öğreten interaktif eğitim oyunu
+8-12 yaş arası çocuklara kodlama, algoritma, hata ayıklama, veri analizi ve dijital güvenlik öğreten interaktif eğitim oyunu.
 
-Çocuklar için tasarlanmış eğlenceli ve etkileşimli kodlama eğitimi platformu. 8-16 yaş arasındaki çocuklara kodlama, algoritma, hata ayıklama, veri analizi, mantık ve dijital güvenlik konularını oyun yoluyla öğretir.
+## ✨ Özellikler
 
-## 🌟 Özellikler
+- 🎯 **5 İstasyon**: Algorithm Explorer, Bug Hunter, Data Detective, Logic Builder, Tech Safety
+- ❓ **15+ Soru**: Her istasyonda yaş grubuna uygun sorular
+- 🏆 **Skor Sistemi**: Doğru cevaplar için puan kazanma
+- 🥇 **Rozet Sistemi**: Başarı seviyelerine göre rozetler
+- 📜 **Sertifika**: PDF formatında başarı sertifikaları
 
-### 🎯 **5 Farklı Eğitim İstasyonu**
-1. **💻 Kodlama Temelleri** - Python programlama dili temellerini öğrenme
-2. **🧩 Algoritma Mantığı** - Problem çözme ve algoritma geliştirme
-3. **🔍 Hata Ayıklama** - Debug teknikleri ve code review
-4. **📊 Veri Analizi** - Temel veri manipülasyonu ve görselleştirme
-5. **🛡️ Dijital Güvenlik** - İnternet güvenliği ve siber farkındalık
+## 🛠️ Teknoloji
 
-### 🏆 **Gamification Özellikleri**
-- **Skor Sistemi** - Her doğru cevap için puan kazanma
-- **Rozet Sistemi** - Başarıları için özel rozetler
-- **Sertifika Üretimi** - Tamamlanan bölümler için PDF sertifika
-- **İlerleme Takibi** - Öğrenme sürecinin görsel takibi
-- **Seviye Sistemi** - Zorluk derecesi artan sorular
+- 🐍 Python 3.8+
+- 🖼️ Tkinter (GUI)
+- 📄 JSON (veri depolama)
 
-### 📚 **Eğitim İçeriği**
-- **15+ Interaktif Soru** - Yaş grubuna uygun sorular
-- **Görsel Öğrenme** - Renkli ve çekici arayüz
-- **Pratik Uygulamalar** - Hands-on kodlama deneyimleri
-- **Anında Geri Bildirim** - Doğru/yanlış cevaplar için açıklamalar
+## 🚀 Kurulum
 
-## 🛠️ Teknoloji Stack
-
-```python
-🐍 Python 3.8+        # Ana programlama dili
-🖼️ Tkinter            # GUI framework
-📄 ReportLab          # PDF sertifika üretimi
-🎨 PIL (Pillow)       # Görsel işleme
-📊 Matplotlib         # Grafik ve chart'lar
-🗂️ JSON               # Veri depolama
-```
-
-## 🚀 Kurulum ve Çalıştırma
-
-### Sistem Gereksinimleri
-- Python 3.8 veya üstü
-- Windows 10/11, macOS 10.14+, Linux Ubuntu 18.04+
-- En az 4GB RAM
-- 200MB boş disk alanı
-
-### Hızlı Kurulum
-
-1. **Repository'yi klonlayın:**
+1. **📥 Projeyi indirin:**
 ```bash
 git clone https://github.com/elifnuroksuzz/CodeCraft-Academy.git
 cd CodeCraft-Academy
 ```
 
-2. **Sanal ortam oluşturun (önerilen):**
-```bash
-python -m venv codecraft_env
-
-# Windows
-codecraft_env\Scripts\activate
-
-# macOS/Linux
-source codecraft_env/bin/activate
-```
-
-3. **Gerekli paketleri yükleyin:**
+2. **⚙️ Python bağımlılıklarını yükleyin:**
 ```bash
 pip install -r requirements.txt
 ```
 
-4. **Uygulamayı başlatın:**
+3. **▶️ Oyunu başlatın:**
 ```bash
 python main.py
 ```
 
-### Manuel Kurulum
-```bash
-# Gerekli kütüphaneleri tek tek yükleyin
-pip install tkinter
-pip install pillow
-pip install reportlab
-pip install matplotlib
-```
+## 🎯 Oyun Akışı
 
-## 🎮 Nasıl Oynanır?
+1. **👤 Giriş**: Oyuncu adını girin
+2. **🎪 İstasyon Seçimi**: 5 farklı eğitim alanından birini seçin
+3. **❓ Sorular**: Her istasyonda 3 soru yanıtlayın
+4. **📊 Değerlendirme**: Skorunuza göre rozet kazanın
+5. **🎓 Sertifika**: Başarılı olan modüller için PDF sertifika alın
 
-### 1. **Giriş ve Kayıt**
-- Uygulama açıldığında isim girişi yapın
-- Yaş grubunuzu seçin (8-12 veya 13-16)
-- "Macerayı Başlat" butonuna tıklayın
+## 📁 Proje Yapısı
 
-### 2. **İstasyon Seçimi**
-- Ana menüden öğrenmek istediğiniz konuyu seçin
-- Her istasyon farklı zorluk seviyesinde sorular içerir
-- İstasyonları sırayla tamamlamanız önerilir
-
-### 3. **Sorulara Cevap Verme**
-- Çoktan seçmeli sorular ve kod yazma alıştırmaları
-- Her doğru cevap için puan kazanın
-- Yanlış cevaplarda açıklayıcı geri bildirim alın
-
-### 4. **İlerleme Takibi**
-- Skorunuzu ve rozetlerinizi görün
-- Tamamlanan bölümler için sertifika indirin
-- Öğrenme istatistiklerinizi inceleyin
-
-## 📖 Eğitim Modülleri
-
-### 🐍 **Modül 1: Kodlama Temelleri**
-```python
-# Öğrenilecek Konular:
-- Değişkenler ve veri tipleri
-- Temel operatörler
-- Koşullu ifadeler (if/else)
-- Döngüler (for/while)
-- Fonksiyonlar
-- Listeler ve sözlükler
-```
-
-### 🧠 **Modül 2: Algoritma Mantığı**
-```python
-# Problem Çözme Teknikleri:
-- Pseudocode yazma
-- Flowchart oluşturma
-- Sıralama algoritmaları
-- Arama algoritmaları
-- Temel kompleksite analizi
-```
-
-### 🔧 **Modül 3: Hata Ayıklama**
-```python
-# Debug Teknikleri:
-- Syntax error'ları bulma
-- Logic error'ları çözme
-- Print debugging
-- Exception handling
-- Code review teknikleri
-```
-
-### 📈 **Modül 4: Veri Analizi**
-```python
-# Veri ile Çalışma:
-- CSV dosyası okuma
-- Temel istatistikler
-- Grafik oluşturma
-- Veri filtreleme
-- Pattern recognition
-```
-
-### 🔒 **Modül 5: Dijital Güvenlik**
-```python
-# Güvenlik Bilinci:
-- Güçlü şifre oluşturma
-- Phishing farkındalığı
-- Sosyal medya güvenliği
-- Kişisel veri koruma
-- Cyber bullying'e karşı korunma
-```
-
-## 🏆 Başarı Sistemi
-
-### 🥇 **Rozetler**
-| Rozet | Koşul | Açıklama |
-|-------|-------|----------|
-| 🌟 İlk Adım | İlk soruyu doğru cevaplama | Kodlama yolculuğuna başlama |
-| 🔥 Ateşli | 5 soruyu üst üste doğru | Konsantrasyon ve öğrenme |
-| 🧠 Dahi | Tüm algoritma sorularını doğru | Mantık ustası |
-| 🛡️ Güvenlik Uzmanı | Güvenlik modülünü tamamlama | Dijital güvenlik bilgisi |
-| 👑 CodeCraft Master | Tüm modülleri tamamlama | Uzman seviye başarı |
-
-### 📊 **Skor Sistemi**
-- **Doğru Cevap**: +10 puan
-- **İlk Denemede Doğru**: +5 bonus puan
-- **Hızlı Cevap**: +3 bonus puan
-- **Rozet Kazanma**: +50 puan
-
-## 📄 Sertifika Sistemi
-
-Başarıyla tamamlanan her modül için otomatik PDF sertifika oluşturulur:
-
-```
-🎓 CodeCraft Academy Sertifikası
-
-Bu belge [Öğrenci Adı]'nın aşağıdaki modülü 
-başarıyla tamamladığını onaylar:
-
-📚 Modül: [Modül Adı]
-📅 Tarih: [Tamamlanma Tarihi]
-🏆 Skor: [Elde Edilen Puan]
-⭐ Seviye: [Başarı Seviyesi]
-
-CodeCraft Academy
-```
-
-## 🎨 Ekran Görüntüleri
-
-*[Projenize ait ekran görüntülerini buraya ekleyebilirsiniz]*
-
-## 🔧 Geliştirici Notları
-
-### Proje Yapısı
 ```
 CodeCraft-Academy/
-├── 📁 src/
-│   ├── main.py              # Ana uygulama dosyası
-│   ├── modules/             # Eğitim modülleri
-│   ├── ui/                  # Kullanıcı arayüzü
-│   ├── utils/               # Yardımcı fonksiyonlar
-│   └── assets/              # Görseller ve kaynaklar
-├── 📁 data/
-│   ├── questions.json       # Soru bankası
-│   ├── certificates/        # Oluşturulan sertifikalar
-│   └── user_progress.json   # Kullanıcı ilerlemesi
-├── requirements.txt         # Python bağımlılıkları
-└── README.md               # Bu dosya
+├── main.py              # Ana başlatıcı
+├── config.py            # Oyun ayarları
+├── game_engine.py       # Oyun motoru
+├── ui_manager.py        # Kullanıcı arayüzü
+├── question_bank.py     # Soru bankası
+├── score_system.py      # Skor ve rozet sistemi
+├── assets_generator.py  # SVG ikon oluşturucu
+├── data/                # Soru ve skor verileri
+├── assets/              # Görseller ve fontlar
+└── certificates/        # Oluşturulan sertifikalar
 ```
 
-### Katkıda Bulunma
+## 📚 Eğitim İçeriği
 
-1. **Fork** yapın
-2. Feature branch oluşturun:
-   ```bash
-   git checkout -b feature/yeni-egitim-modulu
-   ```
-3. Değişiklikleri commit edin:
-   ```bash
-   git commit -m "✨ Yeni eğitim modülü eklendi"
-   ```
-4. Branch'i push edin:
-   ```bash
-   git push origin feature/yeni-egitim-modulu
-   ```
-5. **Pull Request** oluşturun
+### 🧩 Algorithm Explorer
+- Algoritma temel kavramları
+- Problem çözme adımları
+- Pseudocode yazma
 
-### Katkı Alanları
-- 🎯 Yeni eğitim modülleri
-- 🎨 UI/UX iyileştirmeleri
-- 🌍 Çoklu dil desteği
-- 🎮 Yeni oyunlaştırma öğeleri
-- 📱 Mobil uyumluluk
-- 🔧 Performance optimizasyonları
+### 🐛 Bug Hunter
+- Hata türleri (syntax, logic)
+- Debug teknikleri
+- Code review
 
-## 🚧 Gelecek Özellikler
+### 📊 Data Detective
+- Veri tipleri
+- Temel veri analizi
+- Grafik okuma
 
-- [ ] 🌐 Web tabanlı versiyon
-- [ ] 📱 Mobil uygulama (Android/iOS)
-- [ ] 🎵 Ses efektleri ve müzik
-- [ ] 🌍 Çoklu dil desteği (İngilizce, Almanca)
-- [ ] 👨‍👩‍👧‍👦 Ebeveyn dashboard'u
-- [ ] 🏫 Öğretmen paneli
-- [ ] 📊 Detaylı analitik raporlar
-- [ ] 🤝 Çok oyunculu mod
-- [ ] 🏆 Online liderlik tablosu
-- [ ] 🎭 Avatar sistemi
+### 🧠 Logic Builder
+- Koşullu ifadeler (IF-ELSE)
+- Mantıksal operatörler (AND, OR)
+- Döngü kavramları
 
-## 🐛 Bilinen Sorunlar
+### 🛡️ Tech Safety
+- Güvenli şifre oluşturma
+- Phishing farkındalığı
+- Dijital güvenlik
 
-- Bazı emoji'ler eski Python sürümlerinde görüntülenemeyebilir
-- macOS'ta Tkinter font sorunu (çözüm: `brew install tcl-tk`)
-- Windows'ta PDF oluşturma yavaş olabilir
+## 💻 Sistem Gereksinimleri
 
-## 📚 Kaynaklar ve Referanslar
-
-- [Python for Kids](https://pythonforkids.brendanscott.com/)
-- [Scratch Programming](https://scratch.mit.edu/)
-- [Code.org](https://code.org/)
-- [National Center for Computing Education](https://teachcomputing.org/)
-
-## 🆘 Destek
-
-Sorun yaşıyorsanız:
-
-1. **Issues** sayfasından yeni bir sorun raporu oluşturun
-2. **Discussions** sayfasında soru sorun
-3. **Email** ile doğrudan iletişime geçin
-
-## 📄 Lisans
-
-Bu proje [MIT License](LICENSE) ile lisanslanmıştır. 
-
-**Bu şu anlama gelir:**
-- ✅ Ticari kullanım
-- ✅ Değiştirme
-- ✅ Dağıtım
-- ✅ Özel kullanım
-- ❌ Sorumluluk
-- ❌ Garanti
+- 🖥️ Python 3.8 veya üstü
+- 💾 Windows 10/11, macOS 10.14+, Linux Ubuntu 18.04+
+- 🔧 4GB RAM
+- 💿 200MB disk alanı
 
 ## 👩‍💻 Geliştirici
 
 **Elif Nur Öksüz**
+- 🌐 GitHub: [@elifnuroksuzz](https://github.com/elifnuroksuzz)
+- 📧 Email: [elifnuroksuz4@gmail.com](mailto:elifnuroksuz4@gmail.com)  
+- 💼 LinkedIn: [elifnuroksuz](https://www.linkedin.com/in/elifnuroksuz/)
 
-- 🌐 **GitHub**: [@elifnuroksuzz](https://github.com/elifnuroksuzz)
-- 📧 **Email**: [elifnuroksuz4@gmail.com](mailto:elifnuroksuz4@gmail.com)
-- 💼 **LinkedIn**: [elifnuroksuz](https://www.linkedin.com/in/elifnuroksuz/)
+## 📄 Lisans
 
-## 🙏 Teşekkürler
-
-- 👨‍🏫 Eğitim uzmanlarına katkıları için
-- 👶 Test eden çocuklara ve ailelerine
-- 🌟 Açık kaynak topluluğuna ilham için
-- 🎨 İkon ve grafik tasarımcılarına
-
-## 🌟 Destekçiler
-
-Projeyi desteklemek isterseniz:
-- ⭐ GitHub'da yıldızlayın
-- 🐛 Bug report'ları gönderin
-- 💡 Yeni özellik önerileri yapın
-- 📢 Sosyal medyada paylaşın
+MIT License - Detaylar için [LICENSE](LICENSE) dosyasına bakın.
 
 ---
 
+⭐ **Bu projeyi beğendiyseniz yıldızlamayı unutmayın!**
